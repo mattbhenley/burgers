@@ -4,8 +4,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Burgers</title>
+        <link rel="stylesheet" href="./css/burgr.css">
+        <script defer="defer" src="./js/jquery-3.6.0.min.js"></script>
+        <script defer="defer" src="./js/burgr.js"></script>
 </head>
 <body>
+
+        <div class="nav-bar">
+            <div class="nav-bar__section"><img class="nav-bar__logo" src="./images/icon.png"></div>
+            <div class="nav-bar__section">
+                <div class="nav-bar__item"><img src="./images/cart.png"></div>
+                <div class="nav-toggle">
+                    <div class="nav-toggle__bar"></div>
+                    <div class="nav-toggle__bar"></div>
+                    <div class="nav-toggle__bar"></div>
+                </div>
+            </div>
+        </div>
+        <nav class="nav"><a class="nav__item" href="http://localhost:8080/">HOME</a><a class="nav__item"
+                href="http://localhost:8080/">ORDER</a><a class="nav__item" href="http://localhost:8080/">CART</a><a
+                class="nav__item" href="http://localhost:8080/">ABOUT</a><a class="nav__item"
+                href="http://localhost:8080/">CONTACT</a>
+            <div class="nav__highlight"></div>
+        </nav>
+        <div class="hero__background"></div>
+        <div class="hero__container">
+            <div class="hero align-right align-sm-center color-white">EAT LIKE<br>A KING<br><button class="button">Order
+                    Now</button></div>
+            <div class="hero"><img src="./images/hero.png"></div>
+            <div class="hero align-left">ENJOY<br>EVERY<br>BITE</div>
+        </div>
     
 </body>
 </html>
